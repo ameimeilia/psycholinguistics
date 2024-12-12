@@ -24,19 +24,29 @@ Currently, even the most advanced AI is limited in its ability to communicate th
 ## Bias in AI Communication: Challenges and Implications
 A study titled “The Ghost in the Machine has an American accent: value conflict in GPT-3” investigated how the training data for GPT-3 established values that led to skewed output. The researchers took publicly available texts from various countries and languages which expressed clear values, asked GPT-3 to summarize the text, and recorded changes in the values expressed in the output. The results showed that GPT-3 altered values to more closely conform with American values, notably in topics including gun control, gender, sexuality, immigration policies, and secularism (Johnson).
 
-| Since languages represented on the Internet are majority English, GPT training data is also majority English, but at highly disproportionate rates. | When prompted to summarize text, GPT-3 changed the underlying value to conform with US-centric values. |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| <div style="text-align: center;"><img src="{{ '/images/Screenshot 2024-11-20 at 2.25.51 PM.png' | relative_url}}" alt="Screenshot"></div> | <div style="text-align: center;"><img src="{{ '/images/Screenshot 2024-11-20 at 2.26.16 PM.png' | relative_url}}" alt="Screenshot"></div> |
+| Since languages represented on the Internet are majority English, GPT training data is also majority English, but at highly disproportionate rates. |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="{{ '/images/Screenshot 2024-11-20 at 2.25.51 PM.png' | relative_url}}" alt="Screenshot">                                               |
+
+| When prompted to summarize text, GPT-3 changed the underlying value to conform with US-centric values.                                             |
+| ------------------------------------------------------------------------------------------------------                                               |
+| <img src="{{ '/images/Screenshot 2024-11-20 at 2.26.16 PM.png' | relative_url}}" alt="Screenshot">                                               |
+
 
 Another study titled “Dialect prejudice predicts AI decisions about people's character, employability, and criminality” examines levels of covert racism in language models. Researchers used a method called Matched Guised Probing, based off an approach in sociolinguistics, to draw out stereotypes based on African American English (AAE) vs Standard American English (SAE). Researchers found that language models associated AAE with adjectives such as ignorant, lazy, dirty, and aggressive. Researchers also tested out the impact of these biases in two potential use cases: employment and criminality. For employment, AI often associated AAE with occupations that don’t require a degree/are considered “less prestigious.” For criminality, AI associated AAE with higher rates of convictions and even higher rates of the death sentence (Hofmann).
 
 | LLMs associated a speaker of SAE with the adjectives "brilliant" and "intelligent" but a speaker of AAE with the adjectives "dirty", "lazy", and "stupid." |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <div style="text-align: center;"><img src="{{ '/images/Screenshot 2024-11-20 at 2.26.32 PM.png' | relative_url}}" alt="Screenshot"></div> |
+| <img src="{{ '/images/Screenshot 2024-11-20 at 2.26.32 PM.png' | relative_url}}" alt="Screenshot"><br> |
 
-| LLMs consistently associate SAE with university degree requiring jobs and AAE with non university degree requiring jobs. | When asked to give a verdict on a trial scenario, LLMs consistently delivered convictions and death sentences for defendants who used AAE. |
-| ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| <div style="text-align: center;"><img src="{{ '/images/Screenshot 2024-11-20 at 2.26.46 PM.png' | relative_url}}" alt="Screenshot"></div> | <div style="text-align: center;"><img src="{{ '/images/Screenshot 2024-11-20 at 2.26.56 PM.png' | relative_url}}" alt="Screenshot"></div> |
+| LLMs consistently associate SAE with university degree requiring jobs and AAE with non university degree requiring jobs. |
+| ------------------------------------------------------------------------------------------------------------------------ |
+| <img src="{{ '/images/Screenshot 2024-11-20 at 2.26.46 PM.png' | relative_url}}" alt="Screenshot">                                                           |
+
+| When asked to give a verdict on a trial scenario, LLMs consistently delivered convictions and death sentences for defendants who used AAE. |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="{{ '/images/Screenshot 2024-11-20 at 2.26.56 PM.png' | relative_url}}" alt="Screenshot">                                                           |
+
 
 For such biases, simple improvements won't necessarily be enough to solve the problem. These prejudices are not explicitly visible and must be induced, and there is no direct solution to remove bias. This is an important limitation of AI to address, since AI tools should be beneficial and representative of all communities.
 
@@ -47,9 +57,14 @@ It is particularly difficult to identify root issues in AI’s process of thinki
 ## The Future of Self-Improving AI
 Following this line of thought, one potential area for AI to become more powerful is in self-improving AI. This research paper titled “Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement” explores a self-improving AI model that eliminates the need for human design. In this study, researchers allowed the agent the freedom to recursively modify its runtime memory using a technique called monkey patching (code is allowed to be modified during runtime). Each iteration, the agent interacts with tasks in the environment to evaluate its performance and determine its effectiveness. After applying this model to various coding, science, and math tasks, researchers found that the Gödel Agent outperformed agents with prior human design (Yin).
 
-| A diagram of the "thought" process of the Gödel Agent. | The Gödel Agent consistently outperformed other self-improving AI models. The unrestrained Gödel Agent produced better results by large margins. |
-| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <div style="text-align: center;"><img src="{{ '/images/Screenshot 2024-11-20 at 2.27.39 PM.png' | relative_url}}" alt="Screenshot"></div> | <div style="text-align: center;"><img src="{{ '/images/Screenshot 2024-11-20 at 2.31.57 PM.png' | relative_url}}" alt="Screenshot"></div> |
+| A diagram of the "thought" process of the Gödel Agent. |
+| ------------------------------------------------------------------------------------------------------------------------ |
+| <img src="{{ '/images/Screenshot 2024-11-20 at 2.27.39 PM.png' | relative_url}}" alt="Screenshot"> |
+
+| The Gödel Agent consistently outperformed other self-improving AI models. The unrestrained Gödel Agent produced better results by large margins. |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="{{ '/images/Screenshot 2024-11-20 at 2.31.57 PM.png' | relative_url}}" alt="Screenshot"> |
+
 
 
 ## The Evolving Role of AI in Communication

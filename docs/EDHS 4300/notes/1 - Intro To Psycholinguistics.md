@@ -1,10 +1,10 @@
 ---
 layout: default
-title: What is Psycholinguistics?
+title: Intro To Psycholinguistics
 parent: Notes
 nav_order: 1
 ---
-# What is Psycholinguistics?
+# Intro To Psycholinguistics
 
 ## Grammar
 - the description of language as a system

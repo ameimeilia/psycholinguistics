@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Where Does Language Come From?
+title: Where Language Comes From
 parent: Notes
 nav_order: 2
 ---
-# Where Does Language Come From?
+# Where Language Comes From
 - nativist view: humans are born with language
 - anti-nativist view: language is a tool that is developed by humans everywhere
 
