@@ -26,7 +26,7 @@ A study titled “The Ghost in the Machine has an American accent: value conflic
 
 | Since languages represented on the Internet are majority English, GPT training data is also majority English, but at highly disproportionate rates. |
 | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="{{ '/images/Screenshot 2024-11-20 at 2.25.51 PM.png' | relative_url}}" alt="Screenshot">                                               |
+| <img src="{{ '/images/Screenshot 2024-11-20 at 2.25.51 PM.png' | relative_url}}" alt="Screenshot" width="500">                                               |
 
 | When prompted to summarize text, GPT-3 changed the underlying value to conform with US-centric values.                                             |
 | ------------------------------------------------------------------------------------------------------                                               |
