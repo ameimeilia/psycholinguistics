@@ -33,6 +33,7 @@ Another study titled “Dialect prejudice predicts AI decisions about people's c
 | LLMs associated a speaker of SAE with the adjectives "brilliant" and "intelligent" but a speaker of AAE with the adjectives "dirty", "lazy", and "stupid." |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <div style="text-align: center;"><img src="{{ '/images/Screenshot 2024-11-20 at 2.26.32 PM.png' | relative_url}}" alt="Screenshot"></div> |
+
 | LLMs consistently associate SAE with university degree requiring jobs and AAE with non university degree requiring jobs. | When asked to give a verdict on a trial scenario, LLMs consistently delivered convictions and death sentences for defendants who used AAE. |
 | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | <div style="text-align: center;"><img src="{{ '/images/Screenshot 2024-11-20 at 2.26.46 PM.png' | relative_url}}" alt="Screenshot"></div> | <div style="text-align: center;"><img src="{{ '/images/Screenshot 2024-11-20 at 2.26.56 PM.png' | relative_url}}" alt="Screenshot"></div> |
