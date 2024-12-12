@@ -25,8 +25,8 @@ Currently, even the most advanced AI is limited in its ability to communicate th
 A study titled “The Ghost in the Machine has an American accent: value conflict in GPT-3” investigated how the training data for GPT-3 established values that led to skewed output. The researchers took publicly available texts from various countries and languages which expressed clear values, asked GPT-3 to summarize the text, and recorded changes in the values expressed in the output. The results showed that GPT-3 altered values to more closely conform with American values, notably in topics including gun control, gender, sexuality, immigration policies, and secularism (Johnson).
 
 | Since languages represented on the Internet are majority English, GPT training data is also majority English, but at highly disproportionate rates. |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="{{ '/images/Screenshot 2024-11-20 at 2.25.51 PM.png' | relative_url}}" alt="Screenshot" width="500">                                               |
+| ----------------------------------------------------------------------------------------------------- |
+| <img src="{{ '/images/Screenshot 2024-11-20 at 2.25.51 PM.png' | relative_url}}" alt="Screenshot">|
 
 | When prompted to summarize text, GPT-3 changed the underlying value to conform with US-centric values.                                             |
 | ------------------------------------------------------------------------------------------------------                                               |
